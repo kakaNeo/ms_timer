@@ -1,4 +1,6 @@
 <RCC>
-    <qresource prefix="MsTimer">
+    <qresource prefix="/MsTimer"/>
+    <qresource prefix="/">
+        <file>res/logo.ico</file>
     </qresource>
 </RCC>

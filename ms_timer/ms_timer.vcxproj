@@ -100,6 +100,16 @@
   <ItemGroup>
     <QtRcc Include="ms_timer.qrc" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ms_timer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\logo.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />
